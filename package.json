@@ -1,0 +1,33 @@
+{
+  "name": "winpluscorp-co2",
+  "version": "1.0.0",
+  "description": "nodejs lib for accessing Winpluscorp's co2 ble sensor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:oroce/node-winpluscorp-co2"
+  },
+  "keywords": [
+    "ble",
+    "noble",
+    "winpluscorp",
+    "co2",
+    "sensor",
+    "bluetooth"
+  ],
+  "author": "oroce <robert@oroszi.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oroce/node-winpluscorp-co2/issues"
+  },
+  "homepage": "https://github.com/oroce/node-winpluscorp-co2",
+  "dependencies": {
+    "noble-device": "^1.3.0"
+  },
+  "devDependencies": {
+    "async": "^1.5.2"
+  }
+}
